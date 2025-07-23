@@ -7,7 +7,7 @@ import NoteModal from './Components/NoteModal';
 
 
 // Set a base URL for all our API requests
-const API_URL = '/api/notes';
+const API_URL = 'http://localhost:5001/api/notes';
 
 function App() {
   const [notes, setNotes] = useState([
